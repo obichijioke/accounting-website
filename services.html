@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Trust Track Accounting Services</title>
+    <meta name="description" content="Accounting, tax and business support services for UK small businesses. Bookkeeping, Corporation Tax, Self Assessment, VAT, payroll and company formation.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>html { scroll-behavior: smooth; }</style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        royal: {
+                            600: '#1f4ea3',
+                            700: '#163a7a',
+                            50: '#e6effa',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-600 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="bg-royal-50 py-2 text-xs text-royal-700 text-center font-semibold">
+            <span class="mr-4"><i class="fas fa-phone mr-1"></i> <a href="tel:01279879932" class="hover:underline">01279 879932</a></span>
+            <span><i class="fas fa-envelope mr-1"></i> <a href="mailto:hello@trusttrackaccounting.co.uk" class="hover:underline">hello@trusttrackaccounting.co.uk</a></span>
+        </div>
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 text-royal-600">
+                <i class="fas fa-chart-bar text-3xl"></i>
+                <div class="leading-tight">
+                    <span class="block text-xl font-heading font-bold uppercase tracking-wide">Trust Track</span>
+                    <span class="block text-xs font-bold text-gray-400 uppercase tracking-widest">Accounting Services</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8 font-semibold text-gray-500 text-sm">
+                <a href="index.html" class="hover:text-royal-600 transition">Home</a>
+                <a href="services.html" class="text-royal-600 transition">Services</a>
+                <a href="about.html" class="hover:text-royal-600 transition">About</a>
+                <a href="contact.html" class="hover:text-royal-600 transition">Contact Us</a>
+            </nav>
+
+            <a href="contact.html" class="hidden md:block bg-gradient-to-r from-royal-600 to-blue-500 text-white px-6 py-2 rounded shadow hover:shadow-lg transition font-bold text-sm">
+                Free Consultation
+            </a>
+
+            <button id="mobile-menu-btn" class="md:hidden text-royal-600 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-6 py-4">
+            <a href="index.html" class="block py-2 text-gray-600 font-semibold hover:text-royal-600">Home</a>
+            <a href="services.html" class="block py-2 text-royal-600 font-semibold">Services</a>
+            <a href="about.html" class="block py-2 text-gray-600 font-semibold hover:text-royal-600">About</a>
+            <a href="contact.html" class="block py-2 text-gray-600 font-semibold hover:text-royal-600">Contact Us</a>
+            <a href="contact.html" class="block mt-2 bg-gradient-to-r from-royal-600 to-blue-500 text-white px-6 py-2 rounded text-center font-bold text-sm">Free Consultation</a>
+        </div>
+    </header>
+
+    <!-- Page Hero Banner -->
+    <section class="bg-royal-600 py-16 lg:py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 uppercase tracking-tight">
+                Our Services
+            </h1>
+            <p class="text-blue-100 text-lg max-w-2xl mx-auto mb-4">
+                Comprehensive accounting, tax, and business support for UK small and medium-sized businesses.
+            </p>
+            <nav class="text-blue-200 text-sm">
+                <a href="index.html" class="hover:text-white transition">Home</a>
+                <span class="mx-2">/</span>
+                <span class="text-white">Services</span>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Accounting Services -->
+    <section id="accounting" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl mr-4">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h2 class="text-3xl font-heading font-bold text-royal-700">Accounting Services</h2>
+            </div>
+            <p class="text-gray-500 mb-10 max-w-2xl leading-relaxed">We take care of your day-to-day accounting so you can focus on running your business. Our accounting services keep your financial records accurate, up to date, and fully compliant.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="flex items-start">
+                        <div class="text-royal-600 text-xl mr-4 mt-1"><i class="fas fa-pencil-alt"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold text-royal-700 mb-2">Bookkeeping</h3>
+                            <p class="text-sm text-gray-500 leading-relaxed">Accurate day-to-day transaction recording, bank reconciliation, and financial record keeping. We ensure your books are always up to date and audit-ready.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="flex items-start">
+                        <div class="text-royal-600 text-xl mr-4 mt-1"><i class="fas fa-chart-line"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold text-royal-700 mb-2">Management Accounts</h3>
+                            <p class="text-sm text-gray-500 leading-relaxed">Monthly and quarterly management reports including profit and loss statements, balance sheets, and key performance insights to help you make informed decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="flex items-start">
+                        <div class="text-royal-600 text-xl mr-4 mt-1"><i class="fas fa-calendar-check"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold text-royal-700 mb-2">Year-End Accounts</h3>
+                            <p class="text-sm text-gray-500 leading-relaxed">Preparation of annual accounts for sole traders, partnerships, and limited companies. We handle Companies House filing and ensure full compliance with reporting standards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="flex items-start">
+                        <div class="text-royal-600 text-xl mr-4 mt-1"><i class="fas fa-money-bill-wave"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold text-royal-700 mb-2">Cash Flow Management</h3>
+                            <p class="text-sm text-gray-500 leading-relaxed">Cash flow monitoring, forecasting, and working capital management to help you maintain healthy finances and plan for the future with confidence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax Services -->
+    <section id="tax" class="py-20 bg-royal-50">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center text-royal-600 text-xl mr-4">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                </div>
+                <h2 class="text-3xl font-heading font-bold text-royal-700">Tax Services</h2>
+            </div>
+            <p class="text-gray-500 mb-10 max-w-2xl leading-relaxed">We help you meet your tax obligations while minimising unnecessary tax. Our team stays on top of changing regulations so you don't have to.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-landmark"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">Corporation Tax</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">CT600 returns, corporation tax planning, and deadline management. We help limited companies minimise their tax liability while staying fully compliant.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-user-edit"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">Self Assessment</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Personal tax returns (SA100) for sole traders, landlords, and individuals with additional income including dividends, rental income, and capital gains.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-receipt"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">VAT Returns</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">MTD-compliant VAT submissions, VAT registration advice, flat rate scheme guidance, and ongoing VAT compliance support to keep you on track.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-users-cog"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">PAYE & Payroll</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">RTI submissions, auto-enrolment pension compliance, P11D, P60 processing, and full payroll management to ensure your team is paid correctly and on time.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">HMRC Compliance</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">HMRC investigations support, penalty appeals, compliance reviews, and proactive deadline management to keep you on the right side of the taxman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Support -->
+    <section id="business-support" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex items-center mb-4">
+                <div class="w-12 h-12 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl mr-4">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h2 class="text-3xl font-heading font-bold text-royal-700">Business Support</h2>
+            </div>
+            <p class="text-gray-500 mb-10 max-w-2xl leading-relaxed">We work closely with business owners to provide clear guidance and ongoing support, from setting up your company to helping it grow.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-rocket"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">Business Setup & Formation</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Company formation, sole trader registration, Companies House setup, and partnership agreements. We help you start on the right foot with the correct structure for your needs.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-lightbulb"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">Business Advisory</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Strategic guidance for sole traders and limited companies. We provide advice on growth planning, cost management, and making confident business decisions.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-royal-600">
+                    <div class="text-royal-600 text-2xl mb-4"><i class="fas fa-chart-pie"></i></div>
+                    <h3 class="text-lg font-bold text-royal-700 mb-3">Financial Insights</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Data-driven reporting, KPI tracking, and financial analysis to give you a clear picture of your business performance and help you plan for the future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Band -->
+    <section class="relative bg-royal-700 py-16 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-4">Not Sure What You Need?</h2>
+            <p class="text-blue-100 mb-8 max-w-xl mx-auto">Book a free consultation and we'll help you find the right services for your business. No obligation, no jargon.</p>
+            <a href="contact.html" class="bg-white text-royal-700 hover:bg-gray-100 font-bold py-3 px-8 rounded shadow transition">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-12 pb-6">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="services.html#accounting" class="hover:text-white">Accounting & Bookkeeping</a></li>
+                        <li><a href="services.html#tax" class="hover:text-white">Tax Planning & Returns</a></li>
+                        <li><a href="services.html#tax" class="hover:text-white">VAT & HMRC Support</a></li>
+                        <li><a href="services.html#business-support" class="hover:text-white">Business Advisory</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                        <li><a href="about.html#values" class="hover:text-white">Our Values</a></li>
+                        <li><a href="index.html" class="hover:text-white">Why Choose Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="services.html" class="hover:text-white">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Free Consultation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Essex, UK</li>
+                        <li><a href="tel:01279879932" class="hover:text-white"><i class="fas fa-phone mr-2"></i> 01279 879932</a></li>
+                        <li><a href="mailto:hello@trusttrackaccounting.co.uk" class="hover:text-white"><i class="fas fa-envelope mr-2"></i> hello@trusttrackaccounting.co.uk</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2025 Trust Track Accounting Services Ltd. All rights reserved.</p>
+                <div class="space-x-4 mt-2 md:mt-0">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

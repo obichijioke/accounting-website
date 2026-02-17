@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Track Accounting Services | Stress-Free Accounting & Tax for UK Small Businesses</title>
+    <meta name="description" content="Reliable accounting and tax services for UK small and medium-sized businesses. Bookkeeping, tax returns, VAT, payroll and business advisory support.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>html { scroll-behavior: smooth; }</style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        royal: {
+                            600: '#1f4ea3',
+                            700: '#163a7a',
+                            50: '#e6effa',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Open Sans', 'sans-serif'],
+                        heading: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-600 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="bg-royal-50 py-2 text-xs text-royal-700 text-center font-semibold">
+            <span class="mr-4"><i class="fas fa-phone mr-1"></i> <a href="tel:01279879932" class="hover:underline">01279 879932</a></span>
+            <span><i class="fas fa-envelope mr-1"></i> <a href="mailto:hello@trusttrackaccounting.co.uk" class="hover:underline">hello@trusttrackaccounting.co.uk</a></span>
+        </div>
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 text-royal-600">
+                <i class="fas fa-chart-bar text-3xl"></i>
+                <div class="leading-tight">
+                    <span class="block text-xl font-heading font-bold uppercase tracking-wide">Trust Track</span>
+                    <span class="block text-xs font-bold text-gray-400 uppercase tracking-widest">Accounting Services</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8 font-semibold text-gray-500 text-sm">
+                <a href="index.html" class="text-royal-600 transition">Home</a>
+                <a href="services.html" class="hover:text-royal-600 transition">Services</a>
+                <a href="about.html" class="hover:text-royal-600 transition">About</a>
+                <a href="contact.html" class="hover:text-royal-600 transition">Contact Us</a>
+            </nav>
+
+            <a href="contact.html" class="hidden md:block bg-gradient-to-r from-royal-600 to-blue-500 text-white px-6 py-2 rounded shadow hover:shadow-lg transition font-bold text-sm">
+                Free Consultation
+            </a>
+
+            <button id="mobile-menu-btn" class="md:hidden text-royal-600 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-6 py-4">
+            <a href="index.html" class="block py-2 text-royal-600 font-semibold">Home</a>
+            <a href="services.html" class="block py-2 text-gray-600 font-semibold hover:text-royal-600">Services</a>
+            <a href="about.html" class="block py-2 text-gray-600 font-semibold hover:text-royal-600">About</a>
+            <a href="contact.html" class="block py-2 text-gray-600 font-semibold hover:text-royal-600">Contact Us</a>
+            <a href="contact.html" class="block mt-2 bg-gradient-to-r from-royal-600 to-blue-500 text-white px-6 py-2 rounded text-center font-bold text-sm">Free Consultation</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-royal-600 py-24 lg:py-36 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Professional accounting workspace" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-royal-700 via-royal-700/90 to-royal-600/70"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1 mb-6">
+                        <span class="text-blue-200 text-sm font-semibold"><i class="fas fa-check-circle mr-2"></i>Trusted by 500+ UK Businesses</span>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 uppercase tracking-tight leading-tight">
+                        Stress-Free Accounting & Tax Support
+                    </h1>
+                    <p class="text-blue-100 text-lg md:text-xl mb-8 leading-relaxed">
+                        We handle your accounts and tax, so you stay compliant, save time, and gain peace of mind. Running a business is hard work — managing your finances doesn't have to be.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="services.html" class="bg-white text-royal-700 px-8 py-3 rounded font-bold text-sm hover:bg-gray-100 transition text-center shadow-lg">
+                            <i class="fas fa-arrow-right mr-2"></i> Explore Our Services
+                        </a>
+                        <a href="contact.html" class="border-2 border-white text-white px-8 py-3 rounded font-bold text-sm hover:bg-white hover:text-royal-700 transition text-center">
+                            <i class="fas fa-phone mr-2"></i> Free Consultation
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="space-y-4">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Accounting professional at work" class="rounded-lg shadow-2xl w-full h-48 object-cover">
+                            <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-5 text-white">
+                                <div class="text-3xl font-bold">100%</div>
+                                <div class="text-sm text-blue-200">HMRC Compliant</div>
+                            </div>
+                        </div>
+                        <div class="space-y-4 pt-8">
+                            <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-5 text-white">
+                                <div class="text-3xl font-bold">15+</div>
+                                <div class="text-sm text-blue-200">Years Experience</div>
+                            </div>
+                            <img src="https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Business team collaboration" class="rounded-lg shadow-2xl w-full h-48 object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By / Social Proof Bar -->
+    <section class="bg-white py-6 border-b">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-gray-400">
+                <span class="text-xs font-bold uppercase tracking-widest">Trusted by businesses across</span>
+                <span class="flex items-center gap-2 text-sm font-semibold text-gray-500"><i class="fas fa-map-marker-alt text-royal-600"></i> Essex</span>
+                <span class="flex items-center gap-2 text-sm font-semibold text-gray-500"><i class="fas fa-map-marker-alt text-royal-600"></i> London</span>
+                <span class="flex items-center gap-2 text-sm font-semibold text-gray-500"><i class="fas fa-map-marker-alt text-royal-600"></i> Hertfordshire</span>
+                <span class="flex items-center gap-2 text-sm font-semibold text-gray-500"><i class="fas fa-map-marker-alt text-royal-600"></i> UK-Wide</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview with Images -->
+    <section class="py-20 bg-royal-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-14">
+                <span class="text-royal-600 font-bold uppercase tracking-wider text-sm">What We Do</span>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-800 mt-2">Our Services</h2>
+                <p class="text-gray-500 mt-3 max-w-xl mx-auto">Comprehensive accounting solutions designed for UK small and medium-sized businesses.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 with image -->
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden group">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bookkeeping and accounting" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl mb-4 -mt-12 relative z-10 border-4 border-white shadow">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-royal-700 mb-3">Accounting & Bookkeeping</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">We take care of your day-to-day accounting so you can focus on running your business. From bookkeeping to year-end accounts.</p>
+                        <a href="services.html#accounting" class="text-royal-600 text-xs font-bold uppercase hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                <!-- Service 2 with image -->
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden group">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Tax planning documents" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl mb-4 -mt-12 relative z-10 border-4 border-white shadow">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-royal-700 mb-3">Tax Planning & Returns</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">Strategic tax advice and efficient filing to help you minimise liabilities and stay compliant with HMRC requirements.</p>
+                        <a href="services.html#tax" class="text-royal-600 text-xs font-bold uppercase hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                <!-- Service 3 with image -->
+                <div class="bg-white rounded-xl shadow-sm hover:shadow-lg transition overflow-hidden group">
+                    <div class="h-48 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Business advisory meeting" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="w-12 h-12 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl mb-4 -mt-12 relative z-10 border-4 border-white shadow">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-royal-700 mb-3">Business Support</h3>
+                        <p class="text-sm text-gray-500 mb-4 leading-relaxed">We work closely with business owners to provide clear guidance, from company formation to ongoing financial advice.</p>
+                        <a href="services.html#business-support" class="text-royal-600 text-xs font-bold uppercase hover:underline">Learn More <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Introduction Section with Image -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Our professional team" class="rounded-lg shadow-xl w-full">
+                    <div class="absolute -bottom-6 -right-6 bg-royal-600 text-white p-6 rounded-lg shadow-xl hidden md:block">
+                        <div class="text-3xl font-bold">500+</div>
+                        <div class="text-sm text-blue-200">Happy Clients</div>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-royal-600 font-bold uppercase tracking-wider text-sm">About Trust Track</span>
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-royal-700 mt-2 mb-6">Your Trusted Accounting Partner</h2>
+                    <p class="text-gray-500 mb-4 leading-relaxed">
+                        We are dedicated to helping UK small and medium-sized businesses manage their finances with confidence. Our approach is personal, professional, and focused on delivering real value — not just ticking boxes.
+                    </p>
+                    <p class="text-gray-500 mb-6 leading-relaxed">
+                        Whether you're a sole trader, limited company, or growing business, we help you stay compliant, save time, and make smarter financial decisions.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-royal-600 mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-700">HMRC Compliant</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-royal-600 mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-700">Fixed Pricing</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-royal-600 mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-700">Dedicated Support</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-royal-600 mt-1"></i>
+                            <span class="text-sm font-semibold text-gray-700">UK Expertise</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="inline-block bg-royal-600 text-white px-8 py-3 rounded font-bold text-sm hover:bg-royal-700 transition shadow">
+                        Learn More About Us <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-royal-600 font-bold uppercase tracking-wider text-sm">Why Trust Track</span>
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-royal-700 mt-2 mb-4">Simple. Reliable. Personal.</h2>
+                    <p class="text-gray-500 mb-10">We believe accounting should be understandable, accessible, and stress-free.</p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-5 bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="w-14 h-14 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl flex-shrink-0">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-bold text-royal-700 mb-1">UK-Focused Expertise</h3>
+                                <p class="text-xs text-gray-500">We understand UK tax laws, HMRC requirements, and the unique challenges faced by UK businesses.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-5 bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="w-14 h-14 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl flex-shrink-0">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-bold text-royal-700 mb-1">Clear Communication</h3>
+                                <p class="text-xs text-gray-500">No jargon, just practical advice you can act on. We explain everything in plain English.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-5 bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="w-14 h-14 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl flex-shrink-0">
+                                <i class="fas fa-user-cog"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-bold text-royal-700 mb-1">Tailored Service</h3>
+                                <p class="text-xs text-gray-500">Every business is different. We adapt our support to fit your specific needs and goals.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-5 bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition">
+                            <div class="w-14 h-14 rounded-full bg-royal-50 flex items-center justify-center text-royal-600 text-xl flex-shrink-0">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-bold text-royal-700 mb-1">Peace of Mind</h3>
+                                <p class="text-xs text-gray-500">Confidence that your finances, tax returns, and compliance are handled correctly and on time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professional team working together" class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Work With -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <span class="text-royal-600 font-bold uppercase tracking-wider text-sm">Our Clients</span>
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-royal-700 mt-2 mb-2">Who We Work With</h2>
+            <p class="text-gray-400 uppercase tracking-widest text-xs font-bold mb-14">Supporting Businesses at Every Stage</p>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 max-w-5xl mx-auto mb-10">
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition text-center group hover:bg-royal-50">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center text-royal-600 text-2xl mb-4 mx-auto shadow-sm group-hover:bg-royal-600 group-hover:text-white transition">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <span class="text-sm font-bold text-royal-700">Sole Traders</span>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition text-center group hover:bg-royal-50">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center text-royal-600 text-2xl mb-4 mx-auto shadow-sm group-hover:bg-royal-600 group-hover:text-white transition">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <span class="text-sm font-bold text-royal-700">Limited Companies</span>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition text-center group hover:bg-royal-50">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center text-royal-600 text-2xl mb-4 mx-auto shadow-sm group-hover:bg-royal-600 group-hover:text-white transition">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <span class="text-sm font-bold text-royal-700">Startups</span>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition text-center group hover:bg-royal-50">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center text-royal-600 text-2xl mb-4 mx-auto shadow-sm group-hover:bg-royal-600 group-hover:text-white transition">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <span class="text-sm font-bold text-royal-700">Freelancers</span>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition text-center group hover:bg-royal-50">
+                    <div class="w-16 h-16 rounded-full bg-white flex items-center justify-center text-royal-600 text-2xl mb-4 mx-auto shadow-sm group-hover:bg-royal-600 group-hover:text-white transition">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <span class="text-sm font-bold text-royal-700">SMBs</span>
+                </div>
+            </div>
+            <p class="text-gray-500 text-sm max-w-lg mx-auto">Whatever your business type, we have the experience and expertise to support your financial needs across various industries.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-royal-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-14">
+                <span class="text-royal-600 font-bold uppercase tracking-wider text-sm">Testimonials</span>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-royal-700 mt-2">What Our Clients Say</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-sm text-gray-500 mb-6 leading-relaxed italic">"Trust Track have been brilliant with our accounts. They made everything simple and took the stress out of our year-end filings. Highly recommended."</p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <div class="text-sm font-bold text-royal-700">James Mitchell</div>
+                            <div class="text-xs text-gray-400">Director, Mitchell Designs Ltd</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-sm text-gray-500 mb-6 leading-relaxed italic">"As a freelancer, I needed someone who could handle my self-assessment without the fuss. Trust Track delivered exactly that. Professional and friendly."</p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <div class="text-sm font-bold text-royal-700">Sarah Thompson</div>
+                            <div class="text-xs text-gray-400">Freelance Consultant</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-sm text-gray-500 mb-6 leading-relaxed italic">"They helped us set up our limited company and have managed our books ever since. The advice on tax planning alone has saved us thousands."</p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Client" class="w-12 h-12 rounded-full object-cover">
+                        <div>
+                            <div class="text-sm font-bold text-royal-700">David Okonkwo</div>
+                            <div class="text-xs text-gray-400">Founder, TechBridge Solutions</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Band -->
+    <section class="relative bg-royal-700 py-20 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Team collaboration" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-royal-700 opacity-85"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4">Let's Take Care of Your Numbers</h2>
+            <p class="text-blue-100 mb-10 max-w-xl mx-auto text-lg">Whether you need ongoing accounting support or help with tax compliance, we're here to help.</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mb-10">
+                <a href="tel:01279879932" class="flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-6 py-4 text-white hover:bg-white/20 transition">
+                    <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><i class="fas fa-phone"></i></div>
+                    <div class="text-left">
+                        <div class="text-xs text-blue-200">Call Us</div>
+                        <div class="font-bold">01279 879932</div>
+                    </div>
+                </a>
+                <a href="mailto:hello@trusttrackaccounting.co.uk" class="flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-6 py-4 text-white hover:bg-white/20 transition">
+                    <div class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><i class="fas fa-envelope"></i></div>
+                    <div class="text-left">
+                        <div class="text-xs text-blue-200">Email Us</div>
+                        <div class="font-bold">hello@trusttrackaccounting.co.uk</div>
+                    </div>
+                </a>
+            </div>
+            <a href="contact.html" class="bg-white text-royal-700 hover:bg-gray-100 font-bold py-4 px-10 rounded shadow-lg transition text-lg">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Stats Band -->
+    <section class="bg-royal-600 py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-center md:justify-around text-center text-white">
+                <div class="w-1/2 md:w-auto mb-8 md:mb-0">
+                    <div class="text-4xl font-bold mb-2">500+</div>
+                    <div class="text-sm uppercase tracking-wide opacity-80">Clients</div>
+                </div>
+                <div class="w-1/2 md:w-auto mb-8 md:mb-0">
+                    <div class="text-4xl font-bold mb-2">15+</div>
+                    <div class="text-sm uppercase tracking-wide opacity-80">Years Experience</div>
+                </div>
+                <div class="w-1/2 md:w-auto">
+                    <div class="text-4xl font-bold mb-2">100%</div>
+                    <div class="text-sm uppercase tracking-wide opacity-80">HMRC Compliant</div>
+                </div>
+                <div class="w-1/2 md:w-auto">
+                    <div class="text-4xl font-bold mb-2">24hr</div>
+                    <div class="text-sm uppercase tracking-wide opacity-80">Response Time</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-12 pb-6">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="services.html#accounting" class="hover:text-white">Accounting & Bookkeeping</a></li>
+                        <li><a href="services.html#tax" class="hover:text-white">Tax Planning & Returns</a></li>
+                        <li><a href="services.html#tax" class="hover:text-white">VAT & HMRC Support</a></li>
+                        <li><a href="services.html#business-support" class="hover:text-white">Business Advisory</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+                        <li><a href="about.html#values" class="hover:text-white">Our Values</a></li>
+                        <li><a href="index.html" class="hover:text-white">Why Choose Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Quick Links</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="index.html" class="hover:text-white">Home</a></li>
+                        <li><a href="services.html" class="hover:text-white">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Contact Us</a></li>
+                        <li><a href="contact.html" class="hover:text-white">Free Consultation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4 border-b border-gray-600 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Essex, UK</li>
+                        <li><a href="tel:01279879932" class="hover:text-white"><i class="fas fa-phone mr-2"></i> 01279 879932</a></li>
+                        <li><a href="mailto:hello@trusttrackaccounting.co.uk" class="hover:text-white"><i class="fas fa-envelope mr-2"></i> hello@trusttrackaccounting.co.uk</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
+                <p>&copy; 2025 Trust Track Accounting Services Ltd. All rights reserved.</p>
+                <div class="space-x-4 mt-2 md:mt-0">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
